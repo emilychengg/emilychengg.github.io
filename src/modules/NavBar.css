@@ -1,10 +1,46 @@
-.NavBar-items {
-    display: flex;
-    position: sticky;
+.nav-item {
+    padding-left: 10px;
+    font-size: x-large;
+    display: inline;
+}
+
+.nav-link a:hover {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #99BADD !important;
+    font-family: 'Playfair Display', serif !important; 
+    font-weight: lighter;
+    font-size:xx-large;
+    color: black;
+}
+
+.navbar a {
+    color: black;
+    
+}
+
+.navbar a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.sticky {
+    position: fixed;
     top: 0;
-    background: #f3dada;
-    left: 0%;
-    right: 6.06%;
-    top: 0%;
-    bottom: 0%;
+    width: 100%;
+    z-index: 99;
+    /**
+    font-family: 'Libre Franklin', sans-serif !important;
+    font-size: x-large !important;
+    color: pink !important;
+    position: fixed !important;
+    top: 0 !important;
+
+     */
+}
+
+#content {
+    margin-top: 500px;
 }
