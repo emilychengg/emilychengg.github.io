@@ -1,48 +1,29 @@
 import React, { Component } from "react";
-import { Accordion } from "react-bootstrap";
+import aboutphoto from '../aboutphoto.JPG';
+import { Accordion, Card } from "react-bootstrap";
 import AccordionHeader from "react-bootstrap/esm/AccordionHeader";
+import Button from 'react-bootstrap/Button';
 import "./About.css";
 
 class About extends Component {
     render() {
         return(
-            <Accordion defaultActiveKey={['0']} alwaysOpen>
-                <Accordion.Item eventKey="0"> 
-                    <Accordion.Header >In a nutshell...</Accordion.Header>
-                    <Accordion.Body>
-                        I am a 19 year old student-athlete at MIT from the Bay Area, California. You can find me playing volleyball (indoor, beach, spikeball, and probably any other variation), dabbling in low stakes poker with friends, sipping on an Iced Rose from Philz, or sampling a new restaurant.                        
-                    </Accordion.Body>
-                </Accordion.Item>
-                <Accordion.Item eventKey="1">
-                    <Accordion.Header class="header">Volleyball</Accordion.Header>
-                    <Accordion.Body>
-                        I play setter for the MIT Varsity Women's Volleyball Team! #RollTech
-                        <ul>
-                            <li>
-                                <a href = "https://mitathletics.com/sports/womens-volleyball"> Stay up-to-date on my team and I. </a> </li>
-                            <li>
-                                <a href="https://mitathletics.com/sports/womens-volleyball/schedule?path=wvball">Find out where we compete next.</a></li>
-                            <li>
-                                <a href="https://www.hudl.com/profile/16268440/Emily-Cheng">Check out my highlights!</a>
-                            </li>
-                        </ul>
-                    </Accordion.Body>
-                </Accordion.Item>
-                <Accordion.Item eventKey="2">
-                    <Accordion.Header>Travels</Accordion.Header>
-                    <Accordion.Body>
-                        Maps!
-                    </Accordion.Body>
-                </Accordion.Item>
-                <Accordion.Item eventKey="3">
-                    <Accordion.Header>Luna</Accordion.Header>
-                    <Accordion.Body>hihihi</Accordion.Body>
-                </Accordion.Item>
-                <Accordion.Item eventKey="4">
-                    <Accordion.Header>Favorites</Accordion.Header>
-                    <Accordion.Body>hihihi</Accordion.Body>
-                </Accordion.Item>
-            </Accordion>
+            <div id="aboutme">
+                <div className="about-content">
+                    <h1 id="about">About Me</h1>
+                    <p className="about-text">
+                    My name is Emily, and I’m an incoming junior at MIT studying mathematics and computer science.
+                    <br /><br />
+                    I call Bay Area, California and Cambridge, Massachusetts home, and my interests span product design to product management to mathematical modeling and psychology.    
+                    <br /><br />
+                    Beyond the classroom, I'm a member of the <a href="https://mitathletics.com/sports/womens-volleyball">MIT Women's Varsity Volleyball</a> team, the <a href="http://bakerfoundation.mit.edu/">Baker Foundation</a>, my sorority <a href="https://www.theta.mit.edu/">Kappa Alpha Theta</a>, and <a href="https://www.instagram.com/kesemmit/">Camp Kesem</a>.  
+                    <br /><br />
+                    Talk to me about your favorite restaurants, product management, or the latest trends. <a href="mailto:emilych@mit.edu">Please reach out to me here.</a>
+                    </p>
+                    <br></br>
+                </div>
+                <img id="about-photo" src={aboutphoto}/>
+        </div>
         )
     }
 }

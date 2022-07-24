@@ -1,0 +1,95 @@
+.temp {
+    padding-top: 200px;
+    padding-left: 2rem;
+    font-family: 'Optima', sans-serif;
+    font-size: 24px;
+}
+
+#timeline {
+    padding-top: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right:2rem;
+}
+
+#timeline .card ul {
+    padding-left: 0.5rem; 
+}
+
+#timeline .card li {
+    padding-top: 0.5rem;
+}
+
+#intro-text {
+    max-width: 900px;
+}
+
+#intro-text > h1 {
+    text-align: center;
+    font-family: "Roboto Mono", monospace;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#intro-text > p {
+    font-family: "Libre Franklin", sans-serif;
+    font-size: 16px;
+}
+
+#timeline-line > h1 {
+    font-family: "Roboto Mono", monospace;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#timeline-line {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+#timeline-cards > h1 {
+    font-family: 'Roboto Monospace', monospace;
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 3vh;
+}
+
+#timeline-cards .card {
+    width: 300px;
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+#timeline-cards .grayout {
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+}
+
+#timeline-cards {
+    padding-bottom: 4vh;
+}
+#timeline-cards .card-header {
+    font-size: 20px;
+}
+
+#timeline-cards .card-header:hover {
+    cursor: pointer;
+}
+
+@media screen and ( min-width: 700px ) {
+    #timeline-cards .card {
+        width: 500px;
+    }
+}
+
+@media screen and ( min-width: 1000px ) {
+    #timeline-cards .card {
+        width: 800px;
+    }
+}

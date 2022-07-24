@@ -1,0 +1,53 @@
+#experience {
+    padding-top: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-items: center;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right:2rem;
+}
+
+#header > h1 {
+    font-family: 'American Typewriter', serif;
+    font-size: 48px;
+    line-height: 96.19%;
+    font-weight: 530;
+}
+#experience-cards {
+    padding-top: 3vh;
+    padding-left: 3vh;
+    padding-right: 3vh;
+}
+
+#experience-cards .card {
+    padding-top: 1vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    padding-bottom: 0.3vh;
+    width: 350px;
+    border-radius: 20px;
+    font-family: 'Optima', sans-serif;
+    font-weight: 500;
+    margin-bottom: 2vh;
+    border-color: #c1d6ed;
+    border-style: solid;
+}
+
+#experience-cards > ul {
+    margin-left: 1vh;
+}
+
+@media screen and ( min-width: 700px ) {
+    #experience-cards .card {
+        width: 550px;
+    }
+}
+
+@media screen and ( min-width: 1000px ) {
+    #experience-cards .card {
+        width: 800px;
+    }
+}

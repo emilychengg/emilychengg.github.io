@@ -1,7 +1,7 @@
 .nav-item {
     padding-left: 10px;
     font-size: x-large;
-    display: inline;
+    vertical-align: middle
 }
 
 .nav-link a:hover {
@@ -9,21 +9,31 @@
 }
 
 .navbar {
-    background-color: #99BADD !important;
-    font-family: 'Playfair Display', serif !important; 
+    background-color: #c1d6ed !important;
+    font-family: 'Optima', serif !important; 
     font-weight: lighter;
     font-size:xx-large;
-    color: black;
+    color: #d14343;
+    /* padding-bottom: 5px; */
+    text-decoration: none;
+    vertical-align: middle
 }
 
 .navbar a {
     color: black;
-    
+    vertical-align: middle
+}
+
+.navbar-brand {
+    text-decoration-color: #d14343;
+    color: #d14343;
+    font-size: xx-large;
+    vertical-align: middle
 }
 
 .navbar a:hover {
     text-decoration: none;
-    color: black;
+    color: #d14343;
 }
 
 .sticky {
@@ -31,16 +41,22 @@
     top: 0;
     width: 100%;
     z-index: 99;
+    display: inline;
     /**
     font-family: 'Libre Franklin', sans-serif !important;
     font-size: x-large !important;
     color: pink !important;
     position: fixed !important;
-    top: 0 !important;
+    
 
      */
+    vertical-align: middle
 }
 
-#content {
-    margin-top: 500px;
+.links {
+    display: flex;
+    float: right;
+    padding-right: 10px;
+    vertical-align: middle;
+    padding-top: 40px
 }
