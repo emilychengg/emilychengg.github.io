@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { GoogleMap, LoadScript } from "@react-google-maps/api";
+import "./Restaurants.css"
 
 const containerStyle = {
     width: '100vw',
@@ -17,11 +18,15 @@ class Restaurants extends Component {
         this.state = {visible: false};
     }
 
+    componentDidMount() {
+        document.title = "Emily Cheng > Restaurants"
+    }
+
     render() {
         return(
             <div id="restaurant">
                 <div id="restaurant-text">
-                    <p>Welcome to my food-dedicated page where I leave reviews and comments of most places that I have dined at! For live updates of where I am eating, check out <a href="https://www.instagram.com/coasttocoasteatz/">@coasttocoasteatz</a> on Instagram</p>
+                    <p className = "res"> Welcome to my food-dedicated page where I leave reviews and comments of most places that I have dined at! For live updates of where I am eating, check out <a href="https://www.instagram.com/coasttocoasteatz/">@coasttocoasteatz</a> on Instagram.</p>
                 </div>
                 <LoadScript googleMapsApiKey="U_API_KEY">
                     <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={18}>

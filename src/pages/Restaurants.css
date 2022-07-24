@@ -1,9 +1,10 @@
-#restaurant {
+.restaurant {
     margin-top: 200px;
 }
 
-#restaurant-text {
-    margin-left: 1em;
-    margin-right: 1em;
-    text-align: center;
+.res {
+    padding-top: 20px;
+    padding-left: 2rem;
+    font-family: 'Optima', sans-serif;
+    font-size: 24px;
 }

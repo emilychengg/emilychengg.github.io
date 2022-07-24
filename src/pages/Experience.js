@@ -25,6 +25,7 @@ class Experience extends Component {
                         <Card.Body>
                             <Card.Title>Software Engineering Intern @ Google </Card.Title>
                             <Card.Subtitle className="mb-2 text-muted"> Mountain View, California
+                            <br/>
                             May 2022-August 2022</Card.Subtitle>
                             <Card.Text>
                                 <li> Working on Android Engineering Productivity team.</li>
@@ -37,7 +38,7 @@ class Experience extends Component {
                             <Card.Title>Undergraduate Researcher @ MIT Mathematics Department </Card.Title>
                             <Card.Subtitle className="mb-2 text-muted"> Cambridge, Massachusetts
                             <br/>
-                            February 2021-May 2021</Card.Subtitle>
+                            February 2022-May 2022</Card.Subtitle>
                             <Card.Text>
                                 <ul>
                                     <li>Created an interactive webpage to visualize class dependencies to organize department website (math.mit.edu) and assist students in choosing classes via roadmaps.</li>
@@ -69,8 +70,8 @@ class Experience extends Component {
                             June 2021-August 2021</Card.Subtitle>
                             <Card.Text>
                                 <ul>
-                                    <li>Led and motivated engineers and cross-functional stakeholders in building analytical solutions for institutional clients.</li>
-                                    <li>Synthesized data and constructed dashboards to define success, determine metrics, and develop processes to measure progress towards goals.</li>
+                                    <li>Constructed data-driven dashboards in Domo that identify and minimize shortcomings in BitGo's onboarding process.</li>
+                                    <li>Led and motivated engineers and cross-functional stakeholders in the legal, compliance, product, and executive teams in building analytical solutions.</li>
                                 </ul>
                             </Card.Text>
                         </Card.Body>
@@ -98,7 +99,7 @@ class Experience extends Component {
                             December 2018-August 2019</Card.Subtitle>
                             <Card.Text>
                                 <ul>
-                                    <li>Created quality control programs in C\# that verify the scan range and laser-firing frequency of lidar sensors.</li>
+                                    <li>Created quality control programs in C# that verify the scan range and laser-firing frequency of lidar sensors.</li>
                                     <li>Designed UI with WPF after planning a preliminary sketch and collaborating with sensor engineers.</li>
                                 </ul>
                             </Card.Text>
@@ -128,7 +129,7 @@ class Experience extends Component {
                 <div id="experience-cards">
                     <Card>
                         <Card.Body>
-                            <Card.Title>Fall 2022</Card.Title>
+                            <Card.Title>Fall 2022 - Subject to Change</Card.Title>
                             <Card.Text>
                                 <ul>
                                     <li>5.111: Principles of Chemical Science</li>
