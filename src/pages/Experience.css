@@ -1,5 +1,5 @@
 #experience {
-    padding-top: 250px;
+    padding-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,11 +30,28 @@
     width: 300px;
     border-radius: 20px;
     font-family: 'Optima', sans-serif;
-    font-weight: 500;
     margin-bottom: 2vh;
     border-color: #c1d6ed;
     border-style: solid;
 }
+
+#experience-cards .card-body {
+    padding-top: 1vh;
+    padding-left: 1vh;
+    /* padding-right: 1vh;
+    padding-bottom: 0.3vh; */
+}
+
+#experience-cards .card-title {
+    font-size: large;
+    font-weight: 540;
+}
+
+#experience-cards .card-subtitle {
+    font-size: medium;
+    font-weight: 
+}
+
 
 #experience-cards > ul {
     margin-left: 1vh;

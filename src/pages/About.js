@@ -22,7 +22,9 @@ class About extends Component {
                     <br /><br />
                     Beyond the classroom, I'm a member of the <a href="https://mitathletics.com/sports/womens-volleyball">MIT Women's Varsity Volleyball</a> team, the <a href="https://linktr.ee/ckmit">Baker Foundation</a>, <a href="https://www.theta.mit.edu/">Κappa Alpha Theta</a>, and <a href="https://linktr.ee/ckmit">Camp Kesem</a>.  
                     <br /><br />
-                    Talk to me about your favorite restaurants, product management, or the latest trends. <a href="mailto:emilych@mit.edu">Please reach out to me here.</a>
+                    Talk to me about your favorite restaurants, product management, or the latest trends. <a href="mailto:emilych@mit.edu">Please reach out to me here</a>.
+                    <br></br> <br></br>
+                    Last updated July 2022.
                     </p>
                     <br></br>
                 </div>

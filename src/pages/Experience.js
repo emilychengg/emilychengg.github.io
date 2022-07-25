@@ -23,12 +23,12 @@ class Experience extends Component {
                 <div id="experience-cards">
                     <Card>
                         <Card.Body>
-                            <Card.Title>Software Engineering Intern @ Google </Card.Title>
+                            <Card.Title >Software Engineering Intern @ Google </Card.Title>
                             <Card.Subtitle className="mb-2 text-muted"> Mountain View, California
                             <br/>
                             May 2022-August 2022</Card.Subtitle>
                             <Card.Text>
-                                <li> Working on Android Engineering Productivity team.</li>
+                                <ul><li> Working on Android Engineering Productivity team.</li></ul>
                             </Card.Text>
                         </Card.Body>
                     </Card>
