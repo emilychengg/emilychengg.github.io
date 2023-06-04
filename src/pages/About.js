@@ -16,15 +16,13 @@ class About extends Component {
                 <div className="about-content">
                     <h1 id="about">About Me</h1>
                     <p className="about-text">
-                    My name is Emily, and I’m an incoming junior at MIT studying Mathematics and Computer Science.
+                    My name is Emily, and I’m a rising senior at MIT studying Mathematics (18) and Artificial Intelligence and Decision Making (6-4).
                     <br /><br />
-                    I call Bay Area, California and Cambridge, Massachusetts home, and my interests span product design to product management to mathematical modeling and psychology.    
+                    I call Bay Area, California and Cambridge, Massachusetts home, and my interests span product design to product management to mathematical modeling and urban planning.    
                     <br /><br />
                     Beyond the classroom, I'm a member of the <a href="https://mitathletics.com/sports/womens-volleyball">MIT Women's Varsity Volleyball</a> team, the <a href="https://linktr.ee/ckmit">Baker Foundation</a>, <a href="https://www.theta.mit.edu/">Κappa Alpha Theta</a>, and <a href="https://linktr.ee/ckmit">Camp Kesem</a>.  
                     <br /><br />
-                    Talk to me about your favorite restaurants, product management, or the latest trends. <a href="mailto:emilych@mit.edu">Please reach out to me here</a>.
-                    <br></br> <br></br>
-                    Last updated July 2022.
+                    Last updated June 2023.
                     </p>
                     <br></br>
                 </div>

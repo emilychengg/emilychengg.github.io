@@ -10,6 +10,7 @@ import { faWordpressSimple } from '@fortawesome/free-brands-svg-icons';
 import { faTwitter } from "@fortawesome/free-brands-svg-icons";
 import { faSpotify} from "@fortawesome/free-brands-svg-icons";
 import { faVolleyball} from '@fortawesome/free-solid-svg-icons';
+import { faSushi} from "@fortawesome/free-solid-svg-icons";
 
 class Home extends Component {
     render() {
@@ -18,11 +19,12 @@ class Home extends Component {
                 <div className="intro-box">
                     <img className="logo" src={logo} alt="logo" />
                     <div className="vl">
-                        <h1 className="header-text">Hi! My name is Emily Cheng, and I'm a rising junior at MIT studying Mathematics and Computer Science. Some of my hobbies include volleyball, cooking and eating, and traveling. <br></br> <br></br> Welcome to the soft launch of my website! </h1>
+                        <h1 className="header-text">Hi! My name is Emily Cheng, and I'm a rising senior at MIT studying Mathematics and Computer Science. Some of my hobbies include volleyball, cooking and eating, and traveling. <br></br> <br></br> Welcome to the launch of my website! </h1>
                         <div className="links">
                             <a href="https://www.instagram.com/emilyycheng/"><FontAwesomeIcon icon={faInstagram} size="3x"/></a>
                             <a href="https://www.linkedin.com/in/emilycheng6/"><FontAwesomeIcon size="3x" icon={faLinkedinIn}/></a>
                             <a href="https://mitathletics.com/sports/womens-volleyball/roster/emily-cheng/9292"><FontAwesomeIcon size="3x" icon={faVolleyball}/></a>
+                            {/* <a href="https://www.instagram.com/coasttocoasteatz/"><FontAwesomeIcon size="3x" icon={faSushi}/></a> */}
                         </div>
                     </div>
                 </div>

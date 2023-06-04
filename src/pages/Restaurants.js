@@ -26,7 +26,7 @@ class Restaurants extends Component {
         return(
             <div id="restaurant">
                 <div id="restaurant-text">
-                    <p className = "res"> Welcome to my food-dedicated page where I leave reviews and comments of most places that I have dined at! For live updates of where I am eating, check out <a href="https://www.instagram.com/coasttocoasteatz/">@coasttocoasteatz</a> on Instagram.</p>
+                    <p className = "res"> Welcome to my food-dedicated page where I leave reviews and comments of some places that I have dined at! For live updates of where I am eating, check out <a href="https://www.instagram.com/coasttocoasteatz/">@coasttocoasteatz</a> on Instagram. Under Construction ... Stay Tuned!</p>
                 </div>
                 <LoadScript googleMapsApiKey="U_API_KEY">
                     <GoogleMap mapContainerStyle={containerStyle} center={center} zoom={18}>

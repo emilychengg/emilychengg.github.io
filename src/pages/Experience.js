@@ -21,6 +21,65 @@ class Experience extends Component {
                 </div>
 
                 <div id="experience-cards">
+
+                    <Card>
+                        <Card.Body>
+                            <Card.Title >Technical Program Management Intern @ Tesla </Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted"> Palo Alto, California
+                            <br/>
+                            May 2023-August 2023</Card.Subtitle>
+                            <Card.Text>
+                                <ul>
+                                    <li> Worked with the Engineering Fleet Team under Vehicle Software.</li>
+                                </ul>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+
+                    <Card>
+                        <Card.Body>
+                            <Card.Title >Undergraduate Researcher @ MIT Sports Lab </Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted"> Cambridge, Massachusetts
+                            <br/>
+                            February 2023-May 2023</Card.Subtitle>
+                            <Card.Text>
+                                <ul>
+                                    <li> Expand the library of football events, namely determining passes or shots, detected by an algorithm from 2D and 3D tracking data from the World Cup through the use of Python, Pandas, and machine learning techniques. </li>
+                                    <li> Research sponsored by FIFA.</li>
+                                </ul>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+
+                    <Card>
+                        <Card.Body>
+                            <Card.Title >Teaching Assistant @ MIT Sloan School of Management </Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted"> Cambridge, Massachusetts
+                            <br/>
+                            January 2023-May 2023</Card.Subtitle>
+                            <Card.Text>
+                                <ul>
+                                    <li> Lead weekly office hours, advise final projects, and formulate and grade exams and problem sets for over 100 students. </li>
+                                    <li> TA for Optimization in Business Methods (15.053) in collaboration with 9 other TAs and 2 Professors.</li>
+                                </ul>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+
+                    <Card>
+                        <Card.Body>
+                            <Card.Title>Grader for Linear Algebra 18.06 & Mathematics for Computer Science 6.042 @ MIT </Card.Title>
+                            <Card.Subtitle className="mb-2 text-muted"> Cambridge, Massachusetts
+                            <br/>
+                            September 2022-December 2022</Card.Subtitle>
+                            <Card.Text>
+                                <ul>
+                                    <li>Graded weekly problem sets for 600+ students across 2 classes.</li>
+                                </ul>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+
                     <Card>
                         <Card.Body>
                             <Card.Title >Software Engineering Intern @ Google </Card.Title>
@@ -28,7 +87,11 @@ class Experience extends Component {
                             <br/>
                             May 2022-August 2022</Card.Subtitle>
                             <Card.Text>
-                                <ul><li> Working on Android Engineering Productivity team.</li></ul>
+                                <ul>
+                                    <li> Streamlined testing infrastructure to save 100 Google Pixel devices daily and implemented scalable logic for other software.</li>
+                                    <li> Optimized existing testing pipeline for Android software updates by reducing bottleneck and testing only revised code while surfacing tests results from previous runs for unchanged segments. </li>
+                                    <li> Worked with the Android Engineering Productivity Team.</li>
+                                </ul>
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -127,15 +190,54 @@ class Experience extends Component {
                   <h1>Coursework</h1>
                 </div>
                 <div id="experience-cards">
+
                     <Card>
                         <Card.Body>
-                            <Card.Title>Fall 2022 - Subject to Change</Card.Title>
+                            <Card.Title>Fall 2023</Card.Title>
+                            <Card.Text>
+                                <ul>
+                                    <li>6.7201 [6.215]: Optimization Methods </li>
+                                    <li>11.111: Leadership in Negotiation: Advanced Applications</li>
+                                    <li>18.404: Theory of Computation</li>
+                                </ul>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+
+                    <Card>
+                        <Card.Body>
+                            <Card.Title>Spring 2023</Card.Title>
+                            <Card.Text>
+                                <ul>
+                                    <li>6.3000 [6.003]: Signal Processing</li>
+                                    <li>9.00: Introduction to Psychology</li>
+                                    <li>11.123: Big Cities and Mega Urban Landscapes</li>
+                                    <li>18.204: Seminar in Discrete Mathematics</li>
+                                </ul>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+
+                    <Card>
+                        <Card.Body>
+                            <Card.Title>IAP 2023</Card.Title>
+                            <Card.Text>
+                                <ul>
+                                    <li>15.2671: Negotiation Analysis</li>
+                                </ul>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+
+                    <Card>
+                        <Card.Body>
+                            <Card.Title>Fall 2022</Card.Title>
                             <Card.Text>
                                 <ul>
                                     <li>5.111: Principles of Chemical Science</li>
-                                    <li>6.046: Design and Analysis of Algorithms</li>
-                                    <li>18.701: Algebra I</li>
-                                    <li>18.642: Topics in Mathematics with Applications in Finance</li>
+                                    <li>6.1220 [6.046]: Design and Analysis of Algorithms</li>
+                                    <li>6.4590 [6.805]: Foundations of Internet Policy</li>
+                                    <li>11.011: The Art and Science of Negotiation</li>
                                 </ul>
                             </Card.Text>
                         </Card.Body>
@@ -177,7 +279,7 @@ class Experience extends Component {
                                     <li>2.00B: Toy Product Design</li>
                                     <li>6.006: Introduction to Algorithms</li>
                                     <li>6.009: Fundamentals of Programming</li>
-                                    <li>18.S191: Special Subjects in Mathematics - Introduction to Computational Thinking in Julia</li>
+                                    <li>18.S191: Special Subject in Mathematics - Introduction to Computational Thinking in Julia</li>
                                     <li>21M.710: Script Analysis</li>
                                 </ul>
                             </Card.Text>
@@ -186,7 +288,19 @@ class Experience extends Component {
 
                     <Card>
                         <Card.Body>
-                            <Card.Title>Spring 2021</Card.Title>
+                            <Card.Title>IAP 2021</Card.Title>
+                            <Card.Text>
+                                <ul>
+                                    <li>6.S191: Introduction to Deep Learning</li>
+                                    <li>15.S50: Poker Theory and Analytics</li>
+                                </ul>
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+
+                    <Card>
+                        <Card.Body>
+                            <Card.Title>Fall 2020</Card.Title>
                             <Card.Text>
                                 <ul>
                                     <li>6.042: Mathematics for Computer Science </li>
