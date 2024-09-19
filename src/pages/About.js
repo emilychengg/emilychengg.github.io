@@ -1,8 +1,5 @@
 import React, { Component } from "react";
-import aboutphoto from '../aboutphoto.JPG';
-import { Accordion, Card } from "react-bootstrap";
-import AccordionHeader from "react-bootstrap/esm/AccordionHeader";
-import Button from 'react-bootstrap/Button';
+import aboutphoto from '/Users/emilycheng/my-app/src/logo/aboutphoto.JPG';
 import "./About.css";
 
 class About extends Component {
@@ -16,19 +13,19 @@ class About extends Component {
                 <div className="about-content">
                     <h1 id="about">About Me</h1>
                     <p className="about-text">
-                    My name is Emily, and I’m a rising senior at MIT studying Mathematics (18) and Artificial Intelligence and Decision Making (6-4).
+                    My name is Emily, and I just graduated from MIT with a Bachelor of Science in Mathematics (18) and Artificial Intelligence and Decision Making (6-4) and a humanities concentration in Leadership & Negotiation. Currently, I am pursuing a Masters in Engineering in AI at MIT.
                     <br /><br />
-                    I call Bay Area, California and Cambridge, Massachusetts home, and my interests span product design to product management to mathematical modeling and urban planning.    
+                    I call Bay Area, California and Cambridge, Massachusetts home, and my interests span consulting to product management and include mathematical modeling, technology policy, and mobility solutions.    
                     <br /><br />
-                    Beyond the classroom, I'm a member of the <a href="https://mitathletics.com/sports/womens-volleyball">MIT Women's Varsity Volleyball</a> team, the <a href="https://linktr.ee/ckmit">Baker Foundation</a>, <a href="https://www.theta.mit.edu/">Κappa Alpha Theta</a>, and <a href="https://linktr.ee/ckmit">Camp Kesem</a>.  
+                    Beyond the classroom, I was a member of the <a href="https://mitathletics.com/sports/womens-volleyball">MIT Women's Varsity Volleyball</a> team, the <a href="https://linktr.ee/ckmit">Baker Foundation</a>, <a href="https://www.theta.mit.edu/">Κappa Alpha Theta</a>, and <a href="https://linktr.ee/ckmit">Camp Kesem</a>.  
                     <br /><br />
-                    Last updated June 2023.
+                    Last updated September 2024.
                     </p>
                     <br></br>
                 </div>
                 <img id="about-photo" src={aboutphoto}/>
-        </div>
-        
+                <br /><br />
+            </div>
         )
     }
 }

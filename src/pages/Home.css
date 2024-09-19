@@ -19,12 +19,13 @@
 }
 
 .header-text {
-    font-family: 'Optima', sans-serif;      
-    line-height: 96.19%;
+    font-family: 'Optima', sans-serif; 
+    /* system-ui;  */  
+    line-height: 98%;
     max-width: 900px;
     min-width: 200px;
-    font-size: 46px;
-    font-weight: 200;
+    font-size: 40px;
+    font-weight: 300;
 }
 
 .links > a{

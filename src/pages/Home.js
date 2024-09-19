@@ -1,16 +1,9 @@
 import React, { Component } from "react";
-import logo from '../emilychenglogo.png';
+import logo from '/Users/emilycheng/my-app/src/logo/emilychenglogo.png';
 import "./Home.css";
-// import aboutphoto from '../about-photo.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faChevronDown } from '@fortawesome/free-solid-svg-icons';
-import { faGithubAlt, faInstagram } from '@fortawesome/free-brands-svg-icons';
-import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons';
-import { faWordpressSimple } from '@fortawesome/free-brands-svg-icons';
-import { faTwitter } from "@fortawesome/free-brands-svg-icons";
-import { faSpotify} from "@fortawesome/free-brands-svg-icons";
-import { faVolleyball} from '@fortawesome/free-solid-svg-icons';
-import { faSushi} from "@fortawesome/free-solid-svg-icons";
+import { faCamera, faVolleyball, faBowlFood} from '@fortawesome/free-solid-svg-icons';
+import { faInstagram, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 
 class Home extends Component {
     render() {
@@ -19,12 +12,13 @@ class Home extends Component {
                 <div className="intro-box">
                     <img className="logo" src={logo} alt="logo" />
                     <div className="vl">
-                        <h1 className="header-text">Hi! My name is Emily Cheng, and I'm a rising senior at MIT studying Mathematics and Computer Science. Some of my hobbies include volleyball, cooking and eating, and traveling. <br></br> <br></br> Welcome to the launch of my website! </h1>
+                        <h1 className="header-text">Hi! My name is Emily Cheng, and I just graduated from MIT with a Bachelors in Mathematics and in Artificial Intelligence. I'm currently doing a Masters in Engineering in AI back at MIT. Some of my hobbies include volleyball, cooking and eating, and traveling. <br></br> <br></br> Welcome to my website! </h1>
                         <div className="links">
+                            <a href="https://www.linkedin.com/in/emilycheng6/"><FontAwesomeIcon size="3x" icon={faLinkedin}/></a>
                             <a href="https://www.instagram.com/emilyycheng/"><FontAwesomeIcon icon={faInstagram} size="3x"/></a>
-                            <a href="https://www.linkedin.com/in/emilycheng6/"><FontAwesomeIcon size="3x" icon={faLinkedinIn}/></a>
                             <a href="https://mitathletics.com/sports/womens-volleyball/roster/emily-cheng/9292"><FontAwesomeIcon size="3x" icon={faVolleyball}/></a>
-                            {/* <a href="https://www.instagram.com/coasttocoasteatz/"><FontAwesomeIcon size="3x" icon={faSushi}/></a> */}
+                            <a href="https://app.beliapp.com/lists/emilycheng"><FontAwesomeIcon size="3x" icon={faBowlFood}/></a>
+                            <a href="https://vsco.co/emilyychengg/gallery"><FontAwesomeIcon icon={faCamera} size="3x"/></a>
                         </div>
                     </div>
                 </div>

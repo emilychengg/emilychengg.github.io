@@ -1,16 +1,9 @@
 import React, { Component } from "react";
-import logo from '../emilychenglogononame.png'
+import logo from '/Users/emilycheng/my-app/src/logo/emilychenglogononame.png'
 import './NavBar.css'
 import Navbar from 'react-bootstrap/Navbar'
 import { Nav } from "react-bootstrap";
-import ReactDOM from "react-dom";
-import {
-    BrowserRouter as Router,
-    Switch,
-    useLocation,
-    Link,
-    NavLink
-} from "react-router-dom"
+import { NavLink } from "react-router-dom"
 
 class NavBar extends Component {
     render() {
@@ -33,14 +26,9 @@ class NavBar extends Component {
                         }}>Experience</NavLink></Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link><NavLink to="/timeline" activeStyle={{
+                        <Nav.Link><NavLink to="/gallery" activeStyle={{
                             fontWeight: 500,
-                        }}>Timeline</NavLink></Nav.Link>
-                    </Nav.Item>
-                    <Nav.Item>
-                        <Nav.Link><NavLink to="/restaurants" activeStyle={{
-                            fontWeight: 500,
-                        }}>Restaurants</NavLink></Nav.Link>
+                        }}>Gallery</NavLink></Nav.Link>
                     </Nav.Item>
                 </Nav>
                 {/* </Navbar.Collapse> */}

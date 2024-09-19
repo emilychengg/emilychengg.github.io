@@ -1,4 +1,3 @@
-
 #aboutme {
     padding-top: 4rem;
     display: flex;
@@ -40,6 +39,15 @@
     line-height: 96.19%;
     max-width: 580px;
     float: left
+}
+
+.about-text a {
+    color: #d14343;
+    text-decoration: none
+}
+
+.about-text a:hover {
+    text-decoration: underline; /* This adds the underline on hover */
 }
 
 #about-photo {

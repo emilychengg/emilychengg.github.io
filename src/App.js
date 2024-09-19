@@ -1,23 +1,17 @@
-// import logo from './logo.svg';
-//import logo from '../emilychenglogononame.png';
 import './App.css';
 import NavBar from "./modules/NavBar.js"
 import React, { Component } from "react";
-import { render } from '@testing-library/react';
-import ReactDOM from 'react-dom';
 import {
   BrowserRouter as Router,
-  Switch,
   Routes,
   Route,
-  Link
 } from "react-router-dom";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Timeline from "./pages/Timeline";
 import Experience from './pages/Experience';
-import Restaurants from "./pages/Restaurants";
+import Gallery from "./pages/GalleryHome.js";
+import Boston from "./pages/gallery/boston.js";
 
 
 class App extends Component {
@@ -36,9 +30,9 @@ class App extends Component {
           <Routes>
             <Route element={<Home/>} exact path = "/" />
             <Route element={<About/>} path="/about" />
-            <Route element={<Timeline/>} path="/timeline" />
             <Route element={<Experience/>} path="/experience" /> 
-            <Route element={<Restaurants/>} path="/restaurants" />
+            <Route element={<Gallery/>} path="/gallery" />
+            <Route element={<Boston/>} path="/boston" />
           </Routes>
         </Router>
       </div>

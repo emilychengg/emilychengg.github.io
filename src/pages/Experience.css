@@ -4,42 +4,37 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    justify-items: center;
     width: 100%;
     padding-left: 2rem;
-    padding-right:2rem;
+    padding-right: 2rem;
 }
 
 #header > h1 {
     font-family: 'American Typewriter', serif;
     font-size: 48px;
-    line-height: 96.19%;
-    font-weight: 530;
+    line-height: 1.2;
+    font-weight: 600;
 }
+
 #experience-cards {
     padding-top: 3vh;
-    padding-left: 3vh;
-    padding-right: 3vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 #experience-cards .card {
-    padding-top: 1vh;
-    padding-left: 1vh;
-    padding-right: 1vh;
-    padding-bottom: 0.3vh;
+    margin: 1vh;
     width: 300px;
     border-radius: 20px;
     font-family: 'Optima', sans-serif;
     margin-bottom: 2vh;
-    border-color: #c1d6ed;
-    border-style: solid;
+    border: 2px solid #c1d6ed;  /* Ensure the border is properly styled */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better appearance */
 }
 
 #experience-cards .card-body {
-    padding-top: 1vh;
-    padding-left: 1vh;
-    /* padding-right: 1vh;
-    padding-bottom: 0.3vh; */
+    padding: 1vh;
 }
 
 #experience-cards .card-title {
@@ -51,17 +46,23 @@
     font-size: medium;
 }
 
-#experience-cards > ul {
-    margin-left: 1vh;
+#experience-cards ul {
+    margin-left: 2vh;
+    list-style-type: disc; /* Ensure the list style is disc */
+    padding-left: 1.5rem; /* Ensure proper indentation for list items */
 }
 
-@media screen and ( min-width: 700px ) {
+#experience-cards ul li {
+    margin-bottom: 0.5rem; /* Add some spacing between list items */
+}
+
+@media screen and (min-width: 700px) {
     #experience-cards .card {
         width: 550px;
     }
 }
 
-@media screen and ( min-width: 1000px ) {
+@media screen and (min-width: 1000px) {
     #experience-cards .card {
         width: 800px;
     }
