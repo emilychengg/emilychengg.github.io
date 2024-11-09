@@ -12,6 +12,8 @@ import About from "./pages/About";
 import Experience from './pages/Experience';
 import Gallery from "./pages/GalleryHome.js";
 import Boston from "./pages/gallery/boston.js";
+import Korea from "./pages/gallery/korea.js";
+import China from './pages/gallery/china.js';
 
 
 class App extends Component {
@@ -33,6 +35,11 @@ class App extends Component {
             <Route element={<Experience/>} path="/experience" /> 
             <Route element={<Gallery/>} path="/gallery" />
             <Route element={<Boston/>} path="/boston" />
+            <Route element={<Korea/>} path="/korea" />
+            <Route element={<China/>} path="/china" />
+            {/* <Route element={<MIT/>} path="/mit" /> */}
+            {/* <Route element={<Portraits/>} path="/portraits" /> */}
+            {/* <Route element={<Emily/>} path="/emily" /> */}
           </Routes>
         </Router>
       </div>

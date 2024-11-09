@@ -12,7 +12,7 @@ class Home extends Component {
                 <div className="intro-box">
                     <img className="logo" src={logo} alt="logo" />
                     <div className="vl">
-                        <h1 className="header-text">Hi! My name is Emily Cheng, and I just graduated from MIT with a Bachelors in Mathematics and in Artificial Intelligence. I'm currently doing a Masters in Engineering in AI back at MIT. Some of my hobbies include volleyball, cooking and eating, and traveling. <br></br> <br></br> Welcome to my website! </h1>
+                        <h1 className="header-text">Hi! My name is Emily Cheng, and I just graduated from MIT with a Bachelors in Mathematics and in Artificial Intelligence. I'm currently doing a Masters of Engineering in AI back at MIT. Some of my hobbies include volleyball, cooking and eating, and traveling. <br></br> <br></br> Welcome to my website! </h1>
                         <div className="links">
                             <a href="https://www.linkedin.com/in/emilycheng6/"><FontAwesomeIcon size="3x" icon={faLinkedin}/></a>
                             <a href="https://www.instagram.com/emilyycheng/"><FontAwesomeIcon icon={faInstagram} size="3x"/></a>

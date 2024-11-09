@@ -8,9 +8,10 @@ class Gallery extends Component {
 
   render() {
     const images = [
-      { src: process.env.PUBLIC_URL + 'img/boston/boston1.JPG', alt: 'Boston Skyline', link: '/gallery', label: 'Boston' },
+      { src: process.env.PUBLIC_URL + 'img/boston/boston1.JPG', alt: 'Boston Skyline', link: '/boston', label: 'Boston' },
       { src: process.env.PUBLIC_URL + 'img/mit/mit1.JPG', alt: 'MIT Building 1', link: '/gallery', label: 'MIT' },
-      { src: process.env.PUBLIC_URL + 'img/busan/busan1.JPG', alt: 'Gamcheon Culture Village', link: '/gallery', label: 'Busan' },
+      { src: process.env.PUBLIC_URL + 'img/korea/korea1.JPG', alt: 'Gamcheon Culture Village', link: '/korea', label: 'Korea' },
+      { src: process.env.PUBLIC_URL + 'img/china/china1.JPG', alt: 'Shanghai Skyline', link: '/china', label: 'China' },
       // Add more images as needed
     ];
 
@@ -32,9 +33,8 @@ class Gallery extends Component {
           ))}
         </div>
         <p className="gallery-text">
-          Stay tuned for photos from California, China, Japan, and Korea.
           <br></br>
-          Last updated July 2024.
+          Last updated Septembers 2024.
         </p>
       </div>
     );

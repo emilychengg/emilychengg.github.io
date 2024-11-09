@@ -35,8 +35,8 @@ class Experience extends Component {
                 location: "Cambridge, MA",
                 date: "September 2024 - present",
                 details: [
-                    "Facilitated in-class discussions and moot court exercise. Coordinated grading efforts for case briefs and managed general administrative tasks for the course.", 
-                    "Served as liaison between 85 students, 60 MIT undergraduate and graduate students and 15 BU Law students, and 8 staff members, 3 MIT professors, 2 Boston University Law professors, and 3 MIT communication instructors."
+                    "Facilitated in-class discussions and organized moot court and legislative hearing exercises. Coordinated grading efforts for case briefs and managed general administrative tasks.", 
+                    "Served as liaison between ~60 students, 50 MIT undergraduate and graduate students and 12 BU Law students, and 8 staff members, 3 MIT professors, 2 Boston University Law professors, and 3 MIT communication instructors."
                 ]
             },
             {
