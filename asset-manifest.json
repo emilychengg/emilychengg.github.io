@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.3d673501.css",
-    "main.js": "/static/js/main.5635188b.js",
+    "main.js": "/static/js/main.ffa429b9.js",
     "static/js/488.09c5fe62.chunk.js": "/static/js/488.09c5fe62.chunk.js",
     "static/media/EmilyGraduation.JPG": "/static/media/EmilyGraduation.f278632952707ba2ae79.JPG",
     "static/media/emilychenglogo.png": "/static/media/emilychenglogo.b4c4f4a3658ac1d0f3af.png",
     "static/media/emilychenglogononame.png": "/static/media/emilychenglogononame.4db68bddd8793066f5fa.png",
     "index.html": "/index.html",
     "main.3d673501.css.map": "/static/css/main.3d673501.css.map",
-    "main.5635188b.js.map": "/static/js/main.5635188b.js.map",
+    "main.ffa429b9.js.map": "/static/js/main.ffa429b9.js.map",
     "488.09c5fe62.chunk.js.map": "/static/js/488.09c5fe62.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3d673501.css",
-    "static/js/main.5635188b.js"
+    "static/js/main.ffa429b9.js"
   ]
 }
