@@ -18,7 +18,7 @@ class Gallery extends Component {
     return (
       <div id="shell">
         <p className="gallery-text">
-          I'm just someone who likes to take photos and share the memories with her friends. I primarily document my life through my iPhone 13 Pro Max and FujiFilm X100V. This gallery is categorized by location or by event. 
+          I primarily document my life through my iPhone 13 Pro Max and FujiFilm X100V. This gallery is categorized by location or by event. 
         </p>
         <div className="flex flex-wrap justify-center">
           {images.map((image, index) => (
