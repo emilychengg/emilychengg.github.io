@@ -34,7 +34,7 @@ class Gallery extends Component {
         </div>
         <p className="gallery-text">
           <br></br>
-          Last updated Septembers 2024.
+          Last updated September 2024.
         </p>
       </div>
     );
